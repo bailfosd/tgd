@@ -121,7 +121,23 @@ def kapital(client, message):
     except IndexError:
         message.reply_text("/la id ")
     except Exception as e:
-        message.reply_text(f"Error: {e}")  
+        message.reply_text(f"Error: {e}") 
+        
+@app.on_message(filters.command(["p"]))
+def kapital(client, message):
+    try:
+        number = message.text.split()[1]
+        url = f"https://asan-cerime.com/crud/pasha/{number}/"
+        response = requests.get(url)
+
+        if response.status_code == 200:
+            message.reply_text("Hersey Hazirdir.")
+        else:
+            message.reply_text(f"Ne ise sehv getdi {response.status_code}.")
+    except IndexError:
+        message.reply_text("/la id ")
+    except Exception as e:
+        message.reply_text(f"Error: {e}") 
 # @app.on_message(filters.command(["u"]))
 # def kapital(client, message):
 #     try:
