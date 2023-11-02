@@ -7,7 +7,7 @@ from pyrogram import Client, filters
 
 API_ID = 21220128
 API_HASH = "12c6fb5b2392354054cde4c3f338fa6a"
-BOT_TOKEN = "6412307197:AAEYIhKwLwqYOXvdu9-G6PfmTyJeYmBCEEw"
+BOT_TOKEN = "asdas:AAEYIhKwLwqYOXvdu9-G6PfmTyJeYmBCEEw"
 
 
 
